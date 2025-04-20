@@ -1,5 +1,5 @@
 ---
-title: 'pyRDDSP - A python package implementation of RDDSP-SAEA algorithm application"
+title: 'pyRDDSP - A python package implementation of RDDSP-SAEA algorithm application'
 tags:
   - principal component analysis
   - partial least squares regression
