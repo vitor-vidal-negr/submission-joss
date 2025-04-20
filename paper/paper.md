@@ -10,9 +10,9 @@ authors:
  - name: Vitor Vidal de Negreiros
    orcid: 0009-0009-1677-2105
    affiliation: 1
-- name: Lucas Souza Batista
-  orcid: 0000-0002-7444-3440
-  affiliation: 2
+ - name: Lucas Souza Batista
+   orcid: 0000-0002-7444-3440
+   affiliation: 2
 affiliations:
  - name: Graduate Program in Electrical Engineering, Universidade Federal de Minas Gerais, Brazil
    index: 1
