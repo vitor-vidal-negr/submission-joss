@@ -156,6 +156,26 @@ jobs:
             - src
             - paper
 
+version: 2
+jobs:
+build:
+  working_directory: /tmp
+  steps:
+    - run:
+        name: Uploading Artifacts
+        command: |
+          mkdir /tmp/artifacts;
+          cp /tmp/paper/* /tmp/artifacts;
+          echo "listing files";
+          ls  /tmp/artifacts;
+
+    - store_artifacts:
+        path: /tmp/artifacts
+        destination: artifact-file
+
+    - store_artifacts:
+        path: /tmp/artifacts
+        
   manifest:
     <<: *defaults
     steps:
