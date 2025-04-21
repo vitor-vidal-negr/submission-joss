@@ -43,7 +43,7 @@ In pyRDDSP, global search is based on the MDSP strategy and local search is base
 - MDSP - Multi-Decision Space Partitioning approach for global search. A strategy where multiple lower dimensional spaces are clustered and partitoned. RBF surrogates are trained for each of the cluster regions accroos the multiple decision spaces, and only the decision space that yields the best surrogates is selected to be used for further optimization.
 - ESP strategy for local search. Multiple surrogate modelining techniques are applied (RBF, Kriging, Polynomial Regression and surrogate Ensembles) and trained on both the original decision space and lower-dimensional spaces produced by a combined form of PCA/PLS techniques. PLS and PCA are used together so way the algorithm can select the projections that yield the best models.
 
-![img/pyRDDSP.png](img/pyRDDSP.png)
+![img/pyRDDSP_structure.png](img/pyRDDSP_structure.png)
 
 # Statement of need
 
