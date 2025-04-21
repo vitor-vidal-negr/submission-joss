@@ -24,7 +24,7 @@ bibliography: paper.bib
 ---
 
 # Summary 
-
+ 
 Traditional Evolutionary Algorithms (EAs) and Surrogate-Assisted Evolutionary Algorithms (SAEAs) have been successfully applied to a wide range of optimization problems. However, in the context of expensive optimization, the computational budget is often highly constrained. The limited number of fitness evaluations available in such scenarios poses a significant challenge for both EAs and SAEAs. Even specialized algorithms designed for large-scale optimization [@lgso1, @lgso2, @lgso3], which specifically target high-dimensional data, do not always yield satisfactory results due to these limitations.
 
 Expensive optimization problems can require several hours for a single cost function evaluation and may demand specialized hardware and engineering capabilities. Examples include aircraft wing shape optimization [@Jichao2021wingopt], vehicle crash safety design [@Liao08carcrash, @Assoucarcrash19], meteorological simulations [@choi23, @WangWeather23], and Finite Element Method (FEM) problems [@Kalita21_FEM], where evolutionary optimization is particularly difficult due to the high computational cost.
