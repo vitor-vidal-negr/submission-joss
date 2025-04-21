@@ -23,7 +23,7 @@ date: 25 april 2025
 bibliography: paper.bib
 ---
 
-# Summary
+# Summary 
 
 Traditional Evolutionary Algorithms (EAs) and Surrogate-Assisted Evolutionary Algorithms (SAEAs) have been successfully applied to a wide range of optimization problems. However, in the context of expensive optimization, the computational budget is often highly constrained. The limited number of fitness evaluations available in such scenarios poses a significant challenge for both EAs and SAEAs. Even specialized algorithms designed for large-scale optimization [@lgso1, @lgso2, @lgso3], which specifically target high-dimensional data, do not always yield satisfactory results due to these limitations.
 
