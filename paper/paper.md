@@ -43,7 +43,7 @@ The main contributions of RDDSP algorithm and pyRDDSP package are:
 - ESP strategy for local search. Multiple surrogate modeling techniques are applied (RBF, Kriging, Polynomial Regression and surrogate ensembles) and trained on both the original decision space and lower-dimensional spaces produced by a combined form of PCA/PLS techniques. PLS and PCA are used together so that the algorithm can select the projections that yield the best models.
 
 ![img/pyRDDSP_structure.png](img/pyRDDSP_structure.png)
-*Figure 1: pyRDDSP package structure*
+*Figure 1: pyRDDSP package organization*
 
 # Statement of need
 
