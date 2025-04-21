@@ -1,4 +1,4 @@
-![pyRDDSP](https://github.com/user-attachments/assets/28382bd4-0f4c-42e7-b06d-bf235ce90433)---
+---
 title: 'pyRDDSP - A python package implementation of RDDSP-SAEA algorithm application'
 tags:
   - principal component analysis
