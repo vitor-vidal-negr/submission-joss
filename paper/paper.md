@@ -1,5 +1,5 @@
 ---
-title: 'pyRDDSP - A python package implementation of RDDSP-SAEA algorithm application'
+title: 'pyRDDSP - A surrogate assisted algorithm for high-dimensional expensive problems
 tags:
   - principal component analysis
   - partial least squares regression
@@ -31,7 +31,7 @@ Expensive optimization problems can require several hours for a single cost func
 
 The pyRDDSP package is an implementation of RDDSP-SAEA (Reduced Dimension Decision Space Partitioning - Surrogate Assisted Evolutionary Algorithm), a surrogate assisted evolutionary algorithm for high-dimensional expensive problems. RDDSP-SAEA is based on DSP-SAEA [@DSPSAEA23] and evolved the global-local search approach of DSP-SAEA by incorporating an Enhanced Surrogate Pool (ESP) strategy for local search and Multi-Decision Space Partitioning (MDSP) for global search. 
 
-RDDSP-SAEA implemented in pyRDDSP follows the design of global-local search. This algorithm structure is composed of two main parts [@saea1]: 1) global search stage - responsible for exploration and usually based on surrogate models trained in the global search space. 2) local search stage - responsible for exploitation and usually based on surrogate models trained in restricted regions of the search space. In pyRDDSP, global search is based on the MDSP strategy and local search is based on ESP strategy. Both phases rely on PCA and PLS dimension reduction techniques to produce multiple lower-dimensional spaces and surrogates trained with a reduced number of variables. With the multiple surrogates trained across different space projections, the algorithm is able to select the best surrogate models even for expensive high-dimensional data sets. 
+RDDSP-SAEA implemented in pyRDDSP follows the design of global-local search. This algorithm structure is composed of two main parts [@saea1]: 1) global search stage - responsible for exploration and usually based on surrogate models trained in the global search space. 2) local search stage - responsible for exploitation and usually based on surrogate models trained in restricted regions of the search space. In pyRDDSP, global search is based on the MDSP strategy and local search is based on ESP strategy. Both phases rely on Principal Components Analysis (PCA) and Partial Least Squares Regression (PLS) dimension reduction techniques to produce multiple lower-dimensional spaces and surrogates trained with a reduced number of variables. With the multiple surrogates trained across different space projections, the algorithm is able to select the best surrogate models even for expensive high-dimensional data sets. 
 
 In addition to the RDSSP-SAEA algorithm itself, pyRDDSP also brings CEC2005 [@cec2005] test problem suite integrated in the package. The CEC2005 class from pyRDSSP allows users to easily instantiate and use CEC2005 test problems. This test suite is widely used by the optimization community and the implementation provided in pyRDDSP expands the original test suite to include test data for 300, 500 and 700 variables, while the original implementation has a limit of 100 variables. 
 
