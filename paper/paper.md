@@ -1,5 +1,5 @@
 ---
-title: 'pyRDDSP - A surrogate assisted algorithm for high-dimensional expensive problems
+title: 'pyRDDSP - A surrogate assisted algorithm for high-dimensional expensive problems'
 tags:
   - principal component analysis
   - partial least squares regression
